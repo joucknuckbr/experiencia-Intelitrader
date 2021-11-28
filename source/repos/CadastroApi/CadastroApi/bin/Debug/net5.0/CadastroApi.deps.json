@@ -41,6 +41,7 @@
           "RockLib.Logging.AspNetCore": "3.2.4",
           "Serilog": "2.10.0",
           "Serilog.AspNetCore": "4.1.0",
+          "Serilog.Expressions": "3.2.1",
           "Serilog.Extensions.Logging": "3.1.0",
           "Serilog.Settings.Configuration": "3.3.0",
           "Serilog.Sinks.Console": "4.0.1",
@@ -1360,6 +1361,20 @@
         },
         "compile": {
           "lib/net5.0/Serilog.AspNetCore.dll": {}
+        }
+      },
+      "Serilog.Expressions/3.2.1": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Expressions.dll": {
+            "assemblyVersion": "3.2.1.0",
+            "fileVersion": "3.2.1.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Expressions.dll": {}
         }
       },
       "Serilog.Extensions.Hosting/4.1.2": {
@@ -4499,6 +4514,13 @@
       "sha512": "sha512-qRdEkjX10VJ5Cb3B9q/Q/tv+0ntDxAIA1YbOmmNMlkha1TU0ckK5b73eBYMNNLMAU92ofrzOEuIJEc6Q+Q1Z2A==",
       "path": "serilog.aspnetcore/4.1.0",
       "hashPath": "serilog.aspnetcore.4.1.0.nupkg.sha512"
+    },
+    "Serilog.Expressions/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZjpRf8ngwVXGq1Ko4jYTByF6Tdp/8wRrnI2s3DGX3nLSflsvVp3MHm9GsAMvTo8jRJiRisCyEr0dev5XxMzEg==",
+      "path": "serilog.expressions/3.2.1",
+      "hashPath": "serilog.expressions.3.2.1.nupkg.sha512"
     },
     "Serilog.Extensions.Hosting/4.1.2": {
       "type": "package",

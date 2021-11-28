@@ -154,3 +154,5 @@ C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\Serilog.Sin
 C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
 C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\Serilog.Sinks.Seq.dll
+C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\log.json
+C:\Users\jouck\source\repos\CadastroApi\CadastroApi\bin\Debug\net5.0\Serilog.Expressions.dll

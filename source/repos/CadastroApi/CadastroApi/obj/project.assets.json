@@ -1196,6 +1196,18 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Serilog.Expressions/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Expressions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Expressions.dll": {}
+        }
+      },
       "Serilog.Extensions.Hosting/4.1.2": {
         "type": "package",
         "dependencies": {
@@ -4660,6 +4672,24 @@
         "lib/netstandard2.1/Serilog.AspNetCore.xml",
         "serilog.aspnetcore.4.1.0.nupkg.sha512",
         "serilog.aspnetcore.nuspec"
+      ]
+    },
+    "Serilog.Expressions/3.2.1": {
+      "sha512": "iZjpRf8ngwVXGq1Ko4jYTByF6Tdp/8wRrnI2s3DGX3nLSflsvVp3MHm9GsAMvTo8jRJiRisCyEr0dev5XxMzEg==",
+      "type": "package",
+      "path": "serilog.expressions/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net5.0/Serilog.Expressions.dll",
+        "lib/net5.0/Serilog.Expressions.xml",
+        "lib/netstandard2.0/Serilog.Expressions.dll",
+        "lib/netstandard2.0/Serilog.Expressions.xml",
+        "lib/netstandard2.1/Serilog.Expressions.dll",
+        "lib/netstandard2.1/Serilog.Expressions.xml",
+        "serilog.expressions.3.2.1.nupkg.sha512",
+        "serilog.expressions.nuspec"
       ]
     },
     "Serilog.Extensions.Hosting/4.1.2": {
@@ -8571,6 +8601,7 @@
       "RockLib.Logging.AspNetCore >= 3.2.4",
       "Serilog >= 2.10.0",
       "Serilog.AspNetCore >= 4.1.0",
+      "Serilog.Expressions >= 3.2.1",
       "Serilog.Extensions.Logging >= 3.1.0",
       "Serilog.Settings.Configuration >= 3.3.0",
       "Serilog.Sinks.Console >= 4.0.1",
@@ -8651,6 +8682,10 @@
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Serilog.Expressions": {
+            "target": "Package",
+            "version": "[3.2.1, )"
           },
           "Serilog.Extensions.Logging": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MlJwsP6pjmaLoM7jtPc2CwlqjZ1nl7nngcyYW3zOiVOrBP8OqlO6oDhAa1W1sGX0urQIQTEKjsBNb/2LX/BlpQ==",
+  "dgSpecHash": "ERnmsEHDccu+ODOVRWThaLOBf9Xqk1S0zxeTLwNrBksWloHo8kJ8qrCRtV51tCFvKgJEM4mjeggHEaHMYMs1LQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jouck\\source\\repos\\CadastroApi\\CadastroApi\\CadastroApi.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,7 @@
     "C:\\Users\\jouck\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jouck\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\jouck\\.nuget\\packages\\serilog.aspnetcore\\4.1.0\\serilog.aspnetcore.4.1.0.nupkg.sha512",
+    "C:\\Users\\jouck\\.nuget\\packages\\serilog.expressions\\3.2.1\\serilog.expressions.3.2.1.nupkg.sha512",
     "C:\\Users\\jouck\\.nuget\\packages\\serilog.extensions.hosting\\4.1.2\\serilog.extensions.hosting.4.1.2.nupkg.sha512",
     "C:\\Users\\jouck\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
     "C:\\Users\\jouck\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",

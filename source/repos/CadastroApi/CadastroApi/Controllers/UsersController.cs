@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CadastroApi.Models;
@@ -32,12 +31,13 @@ namespace CadastroApi.Controllers
         {
             try
             {
-                _logger.LogInformation("Succefuly GetAllUsers() : (");
-                return await _context.Users.ToListAsync();
+                var allUsers = await _context.Users.ToListAsync();
+                _logger.LogInformation("Succefuly GetUser() with this properties :");
+                return allUsers;
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error at GetAllUsers() : (");
+                _logger.LogError(ex, "Error at GetAllUsers() with this properties :");
                 return null;
             }
         }
@@ -50,25 +50,24 @@ namespace CadastroApi.Controllers
             try
             {
                 var user = await _context.Users.FindAsync(id);
-                _logger.LogInformation("Succefuly GetUser() with id -> {id} : (", id);
+                _logger.LogInformation("Succefuly GetUser() with this properties :");
                 return user;
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error at GetUser() with id -> {id} : (", id);
+                _logger.LogError(ex, "Error at GetUser() with this properties :");
                 return NotFound();
             }
 
         }
 
         // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(Guid id, User user)
         {
             if (id != user.Id)
             {
-                _logger.LogError("Bad Request at PutUser() with id -> {id} : (", id);
+                _logger.LogError("Bad Request at PutUser() with this properties :");
                 return BadRequest();
             }
 
@@ -77,26 +76,25 @@ namespace CadastroApi.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                _logger.LogInformation("Succefuly PutUser() with this properties :");
+                return NoContent();
             }
             catch (DbUpdateConcurrencyException ex)
             {
                 if (!UserExists(id))
                 {
-                    _logger.LogError(ex, "Not found the id -> {id} at PutUser() : (", id);
+                    _logger.LogError(ex, "Not found the id at PutUser() with this properties :");
                     return NotFound();
                 }
                 else
                 {
-                    _logger.LogInformation("Succefuly PutUser() with id -> {id} : (", id);
+                    _logger.LogInformation("Succefuly PutUser() with this properties :");
                     throw;
                 }
             }
-
-            return NoContent();
         }
 
         // POST: api/Users
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
@@ -104,11 +102,11 @@ namespace CadastroApi.Controllers
             try
             {
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Succefuly PostUser() with id -> {Id} : (", user.Id);
+                _logger.LogInformation("Succefuly PostUser() with this properties :");
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Error at PostUser() : (");
+                _logger.LogError(ex, "Error at PostUser() with this properties : (");
             }
 
 
@@ -124,17 +122,17 @@ namespace CadastroApi.Controllers
                 var user = await _context.Users.FindAsync(id);
                 if(user == null)
                 {
-                    _logger.LogError("Not found the id -> {id} at DeleteUser() : (", id);
+                    _logger.LogError("Not found the id with this properties :");
                     return NotFound();
                 }
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Succefuly DeleteUser() with id -> {Id} : (", user.Id);
+                _logger.LogInformation("Succefuly DeleteUser() with this properties :");
                 return NoContent();
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Error at DeleteUser() with id -> {id} : (", id);
+                _logger.LogError(ex, "Error at DeleteUser() with this properties :");
                 return NotFound();
             }
         }
