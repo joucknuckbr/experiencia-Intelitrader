@@ -25,8 +25,8 @@ namespace CadastroApi.Controllers
             _context = context;
         }
 
-        // GET: api/Users
-        [HttpGet]
+            // GET: api/Users
+            [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             try
@@ -98,6 +98,18 @@ namespace CadastroApi.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            if(user.FirstName == null)
+            {
+                _logger.LogError("Error at PostUser(), FirstName is null");
+                return null;
+
+            }
+            else if(user.Age == 0)
+            {
+                _logger.LogError("Error at PostUser(), Age is null");
+                return null;
+            }
+            user.CreationDate = DateTime.Now;
             _context.Users.Add(user);
             try
             {
@@ -106,7 +118,7 @@ namespace CadastroApi.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Error at PostUser() with this properties : (");
+                _logger.LogError(ex, "Error at PostUser() with this properties :");
             }
 
 

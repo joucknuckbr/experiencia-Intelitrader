@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cadastroapi:
+    image: ${DOCKER_REGISTRY-}cadastroapi
+    build:
+      context: .
+      dockerfile: CadastroApi/Dockerfile
+    ports:
+      - 8080:80
+      - 4000:443

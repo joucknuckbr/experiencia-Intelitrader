@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8965e47-8533-47b7-9ede-0c49e11ada15": {
+      "ProjectGuid": "c8965e47-8533-47b7-9ede-0c49e11ada15",
+      "DisplayName": "CadastroApi",
+      "ColorIndex": 0
+    },
+    "2de3669d-ceab-4b18-9012-064311573a87": {
+      "ProjectGuid": "2de3669d-ceab-4b18-9012-064311573a87",
+      "DisplayName": "TestCadastroApi",
+      "ColorIndex": 1
+    },
+    "0cc3e7cb-cf18-4195-b3e1-ed6edbf5d089": {
+      "ProjectGuid": "0cc3e7cb-cf18-4195-b3e1-ed6edbf5d089",
+      "DisplayName": "CadastroApiTest",
+      "ColorIndex": 2
+    },
+    "4407c9a2-bc70-40d1-945a-f6cce4d0ddb3": {
+      "ProjectGuid": "4407c9a2-bc70-40d1-945a-f6cce4d0ddb3",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 3
+    },
+    "cc0d05a4-a7d0-48f3-b6ea-ac093d3d36e6": {
+      "ProjectGuid": "cc0d05a4-a7d0-48f3-b6ea-ac093d3d36e6",
+      "DisplayName": "CadastroApiTest",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -26,10 +26,6 @@ namespace CadastroApi
 
             services.AddDbContext<RegistrationContext>(opt =>
                                                opt.UseInMemoryDatabase("RegistrationList"));
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoApi", Version = "v1" });
-            //});
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
@@ -39,8 +35,6 @@ namespace CadastroApi
             {          
                 app.UseDeveloperExceptionPage();
 
-                //app.UseSwagger();
-                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoApi v1"));
             }
             else
             {
