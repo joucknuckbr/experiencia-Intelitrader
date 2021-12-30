@@ -1,0 +1,15 @@
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\bin\Release\netstandard2.0\AppCadastroX.deps.json
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\bin\Release\netstandard2.0\AppCadastroX.dll
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\bin\Release\netstandard2.0\ref\AppCadastroX.dll
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\bin\Release\netstandard2.0\AppCadastroX.pdb
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.csproj.AssemblyReference.cache
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.AssemblyInfoInputs.cache
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.AssemblyInfo.cs
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.csproj.CoreCompileInputs.cache
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.dll
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\ref\AppCadastroX.dll
+C:\Users\jouck\source\repos\AppCadastroX\AppCadastroX\obj\Release\netstandard2.0\AppCadastroX.pdb

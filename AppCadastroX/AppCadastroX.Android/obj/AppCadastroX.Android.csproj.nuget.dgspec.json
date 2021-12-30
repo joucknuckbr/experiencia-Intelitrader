@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX.Android\\AppCadastroX.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX.Android\\AppCadastroX.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX.Android\\AppCadastroX.Android.csproj",
+        "projectName": "AppCadastroX.Android",
+        "projectPath": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX.Android\\AppCadastroX.Android.csproj",
+        "packagesPath": "C:\\Users\\jouck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\jouck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\AppCadastroX.csproj": {
+                "projectPath": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\AppCadastroX.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\AppCadastroX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\AppCadastroX.csproj",
+        "projectName": "AppCadastroX",
+        "projectPath": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\AppCadastroX.csproj",
+        "packagesPath": "C:\\Users\\jouck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jouck\\source\\repos\\AppCadastroX\\AppCadastroX\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jouck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

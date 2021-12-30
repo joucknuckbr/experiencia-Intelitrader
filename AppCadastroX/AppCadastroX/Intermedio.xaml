@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadastroX.Intermedio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Find" Placeholder="Nome do usuário a ser atualizado"/>
+            <Button x:Name="Search" Text="Procurar" Clicked="FindUser"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

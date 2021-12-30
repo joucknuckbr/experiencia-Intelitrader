@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadastroX.Atualizar"
+             Title="Atualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="FirstName" Placeholder="Novo primeiro nome"/>
+            <Entry x:Name="Surname" Placeholder="Novo sobrenome" />
+            <Entry x:Name="Age" Placeholder="Nova idade"/>
+            <Button x:Name="Atualiza" Text="Atualizar Dados" Clicked="Put"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

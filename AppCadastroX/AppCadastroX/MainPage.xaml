@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:model="clr-namespace:AppCadastroX.Model" x:DataType="model:Post"
+             x:Class="AppCadastroX.MainPage"
+             Title="Todos usuários" >
+
+        <StackLayout>
+            <ListView x:Name="lvwDados">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding FirstName}" />
+                            <Label Text="{Binding SurName}" />
+                            <Label Text="{Binding Age}" />
+                            <Label Text="{Binding CreationDate}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btnAdd"
+                BackgroundColor="Khaki"
+                Clicked="OnAdd"
+                Text="Incluir" />
+                <Button  x:Name="btnUpdate"
+                BackgroundColor="MediumPurple"
+                Clicked="OnUpdate"
+                HorizontalOptions="CenterAndExpand"
+                Text="Atualizar" />
+                <Button  x:Name="btnDelete"
+                BackgroundColor="Crimson"
+                Clicked="OnDelete"
+                Text="Deletar" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>

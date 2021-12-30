@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8965e47-8533-47b7-9ede-0c49e11ada15": {
+      "ProjectGuid": "c8965e47-8533-47b7-9ede-0c49e11ada15",
+      "DisplayName": "CadastroApi",
+      "ColorIndex": 0
+    },
+    "2de3669d-ceab-4b18-9012-064311573a87": {
+      "ProjectGuid": "2de3669d-ceab-4b18-9012-064311573a87",
+      "DisplayName": "TestCadastroApi",
+      "ColorIndex": 1
+    },
+    "0cc3e7cb-cf18-4195-b3e1-ed6edbf5d089": {
+      "ProjectGuid": "0cc3e7cb-cf18-4195-b3e1-ed6edbf5d089",
+      "DisplayName": "CadastroApiTest",
+      "ColorIndex": 2
+    },
+    "4407c9a2-bc70-40d1-945a-f6cce4d0ddb3": {
+      "ProjectGuid": "4407c9a2-bc70-40d1-945a-f6cce4d0ddb3",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 3
+    },
+    "cc0d05a4-a7d0-48f3-b6ea-ac093d3d36e6": {
+      "ProjectGuid": "cc0d05a4-a7d0-48f3-b6ea-ac093d3d36e6",
+      "DisplayName": "CadastroApiTest",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "febb6641-2238-42f0-9582-27a105c89534": {
+      "ProjectGuid": "febb6641-2238-42f0-9582-27a105c89534",
+      "DisplayName": "AppCadastro",
+      "ColorIndex": 5
+    },
+    "42ffddee-ccdf-42b2-ae9d-144420e14a46": {
+      "ProjectGuid": "42ffddee-ccdf-42b2-ae9d-144420e14a46",
+      "DisplayName": "AppCadastroAndroid",
+      "ColorIndex": 6
+    },
+    "e8936509-7bcd-41b0-9907-24476bad6742": {
+      "ProjectGuid": "e8936509-7bcd-41b0-9907-24476bad6742",
+      "DisplayName": "AppCadastro",
+      "ColorIndex": 7
+    },
+    "22b477b7-8cca-4a1d-a71f-8d61bfe16828": {
+      "ProjectGuid": "22b477b7-8cca-4a1d-a71f-8d61bfe16828",
+      "DisplayName": "AppCadastro",
+      "ColorIndex": 8
+    },
+    "050e0ea7-4434-44bd-9385-61660229875c": {
+      "ProjectGuid": "050e0ea7-4434-44bd-9385-61660229875c",
+      "DisplayName": "AppCadastro",
+      "ColorIndex": 9
+    },
+    "092887bd-4a14-42d1-b1b3-19f3baa6e4f7": {
+      "ProjectGuid": "092887bd-4a14-42d1-b1b3-19f3baa6e4f7",
+      "DisplayName": "AppCadastroX",
+      "ColorIndex": 10
+    },
+    "bea87417-6574-46bb-8da0-3ca4056caf35": {
+      "ProjectGuid": "bea87417-6574-46bb-8da0-3ca4056caf35",
+      "DisplayName": "AppCadastroX.Android",
+      "ColorIndex": 11
+    },
+    "8b017ba0-f536-40da-87f7-520a788d66e3": {
+      "ProjectGuid": "8b017ba0-f536-40da-87f7-520a788d66e3",
+      "DisplayName": "ETL",
+      "ColorIndex": 12
+    },
+    "b31b1561-8f37-446c-95ad-0ac18a3ca2cd": {
+      "ProjectGuid": "b31b1561-8f37-446c-95ad-0ac18a3ca2cd",
+      "DisplayName": "ETL Forms",
+      "ColorIndex": 13
+    }
+  },
+  "NextColorIndex": 14
+}
